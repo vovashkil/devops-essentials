@@ -1,4 +1,5 @@
-# cloned from stelligent/devops-essentials.git
+# Repo
+cloned from stelligent/devops-essentials.git
 
 # DevOps Essentials on AWS
 "Continuous delivery is a [DevOps](https://aws.amazon.com/devops/) software development practice where code changes are automatically built, tested, and prepared for a release to production. It expands upon [continuous integration](https://aws.amazon.com/devops/continuous-integration/) by deploying all code changes to a testing environment and/or a production environment after the build stage. When continuous delivery is implemented properly, developers will always have a deployment-ready build artifact that has passed through a standardized test process." [Source](https://aws.amazon.com/devops/continuous-delivery/)
