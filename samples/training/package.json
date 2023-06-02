@@ -1,0 +1,12 @@
+{
+  "name": "alexa-facts",
+  "description": "Example Package Dependencies.",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "alexa-sdk": "^1.0.6",
+    "querystring": "^0.2.0",
+    "aws-sdk": "^2.171.0",
+    "assert": "^1.4.1"
+  }
+}

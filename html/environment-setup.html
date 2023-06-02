@@ -1,0 +1,55 @@
+            <div class="main-body-div" id="main-box">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-xs-12">
+                <!-- Main Body Content -->
+                    <h2 class="page-title bg-primary">Environment: Setup Cloud9</h2>
+
+
+                 <div class="inner-body panel">
+                    <h4 class="sub-heading">Introduction</h4>
+                    <div class="inner-body panel">
+                        <p>AWS Cloud9 is a cloud IDE for writing, running, and debugging code. With it, you can code with only your web browser. No need to download software, configure your environments, or setup your IDE and its configuration on each of your computers. You can collaborate in the same environment with other developers while seeing each of your changes in real time. This is something that I think raises the bar when it comes to pair programming and code reviews.</p>
+
+                        <p>You can also code in nearly any programming language you choose and it supports some of the top IDE platforms such as vim, emacs, and Sublime.</p>
+
+                        <p>From the perspective of reducing the waiting and speeding up feedback loops, there are a couple of key benefits to Cloud9. The first is the real-time collaboration in being up to work with other developers in real time on the same code. The fact that most tools are already installed and configured (e.g. git and the AWS CLI) saves a lot of time and you can go from computer to computer and access your same environments and settings. All of this saves lots of unnecessary time and allows developers to focus on developing features for customers. In less than one minute, it launches your environment and you can immediately start writing code. You can also configure your environment settings such as your color scheme, key bindings, AWS, project, and user settings.</p>
+
+                        <p>Comes with the SAM Local CLI. It also supports integration with AWS Lambda and running and debugging these functions in your IDE. </p> 
+
+                        <p>There is AWS CodeStar integration in Cloud9. With AWS CodeStar, you can set up your entire continuous delivery toolchain in minutes, allowing you to start releasing code faster.</p>
+                    </div>  
+                 </div>  
+
+
+                 <div class="inner-body panel">
+                    <h4 class="sub-heading">Setup Cloud9 Environment</h4>
+                    <div class="inner-body panel">
+                        <ul class="ul-listed">
+                            <li>Go to the <a href="https://console.aws.amazon.com/cloud9/">Amazon Cloud9 console</a> and select <strong>Create environment</strong></li>
+                            <li>Enter a <strong>Name</strong> and <strong>Description</strong></li>
+                            <li>Select <strong>Next step</strong></li>
+                            <li>Select <strong>Create a new instance for environment (EC2)</strong></li>
+                            <li>Select <strong>t2.micro</strong></li>
+                            <li>Leave the <em>Cost-saving setting</em> at the <strong>After 30-minute (default)</strong></li>
+                            <li>Select <strong>Next step</strong></li>
+                            <li>Review best practices and select <strong>Create environment</strong></li>
+                        </ul>
+                    </div>  
+                 </div>  
+                 
+                 <div class="inner-body panel">
+                    <h4 class="sub-heading">Cloud9 Setup Via CloudFormation</h4>
+                    <div class="inner-body panel">
+                        <ul class="ul-listed">
+                            <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloud9-environmentec2.html">AWS::Cloud9::EnvironmentEC2</li>
+                        </ul>
+                    </div>  
+                 </div>  
+                 
+                 
+                 
+                 
+
+
+                 
